@@ -11,7 +11,6 @@ body{
     padding:20px;
 }
 
-/*Recipe name styles*/
 .recipe-description {
     font-size:16px;
     line-height:1.6;
@@ -29,7 +28,6 @@ p:first-child::first-letter {
     line-height:1;
 }
 
-/*Recipe image styles*/
 .recipe-image {
     display:block;
     margin:20px auto;
@@ -38,7 +36,6 @@ p:first-child::first-letter {
     border-radius:10px;
 }
 
-/*Ingredients, Method, Tips box styles*/
 .recipe-box {
     background-color:#fff;
     border:2px solid #ff5722;
@@ -50,7 +47,6 @@ p:first-child::first-letter {
     text-align:left;
 }
 
-/*Ingredients, Method, Tips list styles*/
 .recipe-box ul,
 .recipe-box ol{
     margin-top:0.5em;
@@ -61,7 +57,6 @@ p:first-child::first-letter {
     margin-bottom:0.25em;
 }
 
-/*Tips section styles*/
 .recipe-box h2+ul{
     margin-top:0;
 }
