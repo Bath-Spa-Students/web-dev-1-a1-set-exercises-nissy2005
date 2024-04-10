@@ -1,1 +1,126 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #17072b;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: "Tahoma", sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex; /* Use flexbox to align sections */
+    justify-content: space-between; /* Add space between sections */
+    padding: 20px 0;
+}
+
+section {
+    width: 49%; /* Set width to 49% to accommodate space between sections */
+}
+
+#welcome {
+    margin-right: 1%; /* Add margin between sections */
+}
+
+#welcome h2 {
+    color: #17072b;
+}
+
+#welcome img{
+    display:block;
+    margin-top:20px;
+    width: 100%;
+    max-width: 100%;
+    height:auto;
+}
+
+.DigiFest {
+    padding: 10px; /* Add some padding */
+    margin-top: 20px; /* Add margin to create space between sections */
+}
+
+.DigiFest img {
+    max-width: 70%; /* Reduce the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#lineup {
+    position: absolute;
+    top: 150px; /* Adjust as needed to create a gap from the top */
+    bottom: 250px; /* Adjust as needed to create a gap from the bottom */
+    right: 0;
+    height: calc(100vh - 215px); /* Make it full height of the viewport minus the top and bottom gaps */
+    width: 35%; /* Set desired width */
+    overflow-y: auto; /* Add vertical scrollbar if content exceeds viewport */
+    background-color: #172d67; /* Adjust background color */
+    color: #fff; /* Adjust text color */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+
+
+.lineup-message {
+    background-color: #fff;
+    color: #17072b; /* Match the header text color */
+    padding: 0; /* Remove padding to make the text touch the left side */
+}
+
+
+
+.lineup-images img {
+    width: 100px; /* Adjust the width */
+    height: auto; 
+    margin-right: 10px; /* spacing between images */
+}
+
+
+.lineup-content {
+    margin-top: 20px; /* Added margin to separate from lineup images */
+}
+
+.lineup-message {
+    background-color: #172d67;
+    color: #fff;
+    padding: 20px;
+}
+
+footer {
+    background-color: #8c15e9;
+    color: #fff;
+    padding: 5px 0; 
+    text-align: center;
+    font-size: 0.8em; 
+    position: fixed; /* Set position to fixed */
+    bottom: 0; /* Align to the bottom of the viewport */
+    left: 0;
+    width: 100%;
+}
